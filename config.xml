@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.mycfs.wolfmobile" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>wolfmobile</name>
+    <name>Wolf</name>
     <description>
-        A basic Framework7 template for PhoneGap.
+        Mobile application for Wolf Sizing System.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="" href="http://mycfs.com">
+        Computerway Food Systems
     </author>
     <content src="index.html" />
     <access origin="*" />
@@ -16,10 +16,32 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
-        <preference name="android-minSdkVersion" value="14" />
+        <icon density="ldpi" src="www/res/icon/wolf36.png" />
+        <icon density="mdpi" src="www/res/icon/wolf48.png" />
+        <icon density="hdpi" src="www/res/icon/wolf72.png" />
+        <icon density="xhdpi" src="www/res/icon/wolf96.png" />
+        <icon density="xxhdpi" src="www/res/icon/wolf144.png" />
+        <icon density="xxxhdpi" src="www/res/icon/wolf192.png" />
+        <preference name="android-minSdkVersion" value="22" />
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
+        <icon height="57" platform="ios" src="www/res/icon/wolf57.png" width="57" />
+        <icon height="114" platform="ios" src="www/res/icon/wolf114.png" width="114" />
+        <icon height="40" platform="ios" src="www/res/icon/wolf40.png" width="40" />
+        <icon height="80" platform="ios" src="www/res/icon/wolf80.png" width="80" />
+        <icon height="50" platform="ios" src="www/res/icon/wolf50.png" width="50" />
+        <icon height="100" platform="ios" src="www/res/icon/wolf100.png" width="100" />
+        <icon height="60" platform="ios" src="www/res/icon/wolf60.png" width="60" />
+        <icon height="120" platform="ios" src="www/res/icon/wolf120.png" width="120" />
+        <icon height="180" platform="ios" src="www/res/icon/wolf180.png" width="180" />
+        <icon height="72" platform="ios" src="www/res/icon/wolf72.png" width="72" />
+        <icon height="144" platform="ios" src="www/res/icon/wolf144.png" width="144" />
+        <icon height="76" platform="ios" src="www/res/icon/wolf76.png" width="76" />
+        <icon height="152" platform="ios" src="www/res/icon/wolf152.png" width="152" />
+        <icon height="29" platform="ios" src="www/res/icon/wolf29.png" width="29" />
+        <icon height="58" platform="ios" src="www/res/icon/wolf58.png" width="58" />
+        <icon height="87" platform="ios" src="www/res/icon/wolf87.png" width="87" />    
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <preference name="BackupWebStorage" value="none" />
