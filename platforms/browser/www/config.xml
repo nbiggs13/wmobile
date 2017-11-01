@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.mycfs.wolfmobile" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>wolfmobile</name>
+    <name>Wolf</name>
     <description>
-        A basic Framework7 template for PhoneGap.
+        Mobile application for Wolf Sizing System.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="" href="http://mycfs.com">
+        Computerway Food Systems
     </author>
     <content src="index.html" />
+    <splash src="www/res/icon/cfslogo.png" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

@@ -6,10 +6,26 @@ var $$ = Dom7;
 
 // Add views
 var view1 = myApp.addView('#view-1');
+view1.hideToolbar();
+
 var view2 = myApp.addView('#view-2', {
     // Because we use fixed-through navbar we can enable dynamic navbar
     dynamicNavbar: true
 });
 var view3 = myApp.addView('#view-3');
 var view4 = myApp.addView('#view-4');
+
+document.getElementById("btnNav").addEventListener("click", function(){ 
+    //alert("Clicked");
+    //var mainView = myApp.addView('.view-main')
+    //mainView.router.loadPage('about.html');
+    myApp.hideToolbar(".toolbar", false);
+    console.log("hide toolbar");
+}, false);
+
+setTimeout(function() {
+    var mainView = myApp.addView('.view-main');
+    mainView.router.loadPage('about.html');
+    //myApp.showToolbar(".toolbar", false);
+}, 5000);
 
