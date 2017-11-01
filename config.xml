@@ -8,6 +8,7 @@
         Computerway Food Systems
     </author>
     <content src="index.html" />
+    <splash src="www/res/icon/cfslogo.png" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
